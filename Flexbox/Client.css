@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    width:90%;
+    margin:40px auto;
+    text-align:center;
+     
+}
+
+.container h1{
+    color:#1f4ba8;
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+.container p{
+    color:#555;
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap:nowrap;
+    gap:20px;
+}
+
+
+.card{
+    width:300px;
+    background:#fff;
+    border-radius:15px;
+    padding:30px 20px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    position:relative;
+    overflow:hidden;
+}
+
+
+
+.card h2{
+    color:#1f4ba8;
+    margin-bottom:8px;
+}
+
+.card h4{
+    color:#ff6b6b;
+    margin-bottom:15px;
+}
+
+
+
+
+.card p{
+    color:#444;
+    line-height:1.6;
+    text-align:left;
+}
+.quote{
+    position:absolute;
+    top:0;
+    right:0;
+    width:40px;
+    height:40px;
+    background:#2563eb;
+    color:#fff;
+    font: size 19px;px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-bottom-left-radius:20px;
+}
+
+.whatsapp{
+    position: fixed;
+    top: 650px;
+    left: 50px;
+}
+.chatbot{
+    position: fixed;
+    top: 650px;
+    right: 50px;
+}
